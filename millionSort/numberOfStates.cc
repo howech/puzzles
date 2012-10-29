@@ -1,3 +1,9 @@
+
+// Copyright (c) 2012
+// Chris Howe
+//
+// All rights reserved for the moment. 
+
 #include <cln/integer.h>
 #include <cln/io.h>
 #include <cln/integer_io.h>
