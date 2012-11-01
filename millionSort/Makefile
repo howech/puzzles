@@ -7,7 +7,7 @@ EXECUTABLE=millionSort
 all: $(SOURCES) $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CXX) -o $@ $(OBJECTS) -lcln
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJECTS) -lcln
 
 clean:
 	rm -f $(OBJECTS) $(EXECUTABLE)
